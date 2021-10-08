@@ -1,0 +1,825 @@
+[info   ] [FileManager]: Data files will be fetched from: '/usr/share/supertuxkart/data/'
+[info   ] [FileManager]: User directory is '/home/salah/.config/supertuxkart/config-0.10/'.
+[info   ] [FileManager]: Addons files will be stored in '/home/salah/.local/share/supertuxkart/addons/'.
+[info   ] [FileManager]: Screenshots will be stored in '/home/salah/.local/share/supertuxkart/screenshots/'.
+[info   ] [FileManager]: User-defined grand prix will be stored in '/home/salah/.local/share/supertuxkart/grandprix/'.
+[info   ] [FileManager]: Asset 0 will be loaded from '/usr/share/supertuxkart/data/challenges/'.
+[info   ] [FileManager]: Asset 1 will be loaded from '/usr/share/supertuxkart/data/gfx/'.
+[info   ] [FileManager]: Asset 2 will be loaded from '/usr/share/supertuxkart/data/grandprix/'.
+[info   ] [FileManager]: Asset 3 will be loaded from '/usr/share/supertuxkart/data/gui/icons/'.
+[info   ] [FileManager]: Asset 4 will be loaded from '/usr/share/supertuxkart/data/gui/screens/'.
+[info   ] [FileManager]: Asset 5 will be loaded from '/usr/share/supertuxkart/data/gui/dialogs/'.
+[info   ] [FileManager]: Asset 6 will be loaded from '/usr/share/supertuxkart/data/replay/'.
+[info   ] [FileManager]: Asset 7 will be loaded from '/usr/share/supertuxkart/data/shaders/'.
+[info   ] [FileManager]: Asset 8 will be loaded from '/usr/share/supertuxkart/data/skins/'.
+[info   ] [FileManager]: Asset 9 will be loaded from '/usr/share/supertuxkart/data/ttf/'.
+[info   ] [FileManager]: Asset 10 will be loaded from '/usr/share/supertuxkart/data/po/'.
+[info   ] [FileManager]: Asset 11 will be loaded from '/usr/share/supertuxkart/data/library/'.
+[info   ] [FileManager]: Asset 12 will be loaded from '/usr/share/supertuxkart/data/models/'.
+[info   ] [FileManager]: Asset 13 will be loaded from '/usr/share/supertuxkart/data/music/'.
+[info   ] [FileManager]: Asset 14 will be loaded from '/usr/share/supertuxkart/data/sfx/'.
+[info   ] [FileManager]: Asset 15 will be loaded from '/usr/share/supertuxkart/data/textures/'.
+[info   ] [FileManager]: Asset 16 will be loaded from '/usr/share/supertuxkart/data/tracks/'.
+[verbose  ] translation: Env var LANGUAGE = 'en_US.UTF-8'.
+[verbose  ] translation: Language 'English (United States)'.
+[info   ] [IrrDriver Logger]: ..:: Antarctica Rendering Engine 2.0 ::..
+[info   ] [IrrDriver Logger]: SDL Version 2.0.16
+[info   ] [IrrDriver Logger]: Using renderer: OpenGL 3.3
+[info   ] [IrrDriver Logger]: AMD CEDAR (DRM 2.50.0 / 5.14.8-zen1-1-zen, LLVM 12.0.1): X.Org
+[info   ] [IrrDriver Logger]: OpenGL driver version is 1.2 or better.
+[info   ] [IrrDriver Logger]: GLSL version: 3.3
+[info   ] IrrDriver: OpenGL version: 3.3
+[info   ] IrrDriver: OpenGL vendor: X.Org
+[info   ] IrrDriver: OpenGL renderer: AMD CEDAR (DRM 2.50.0 / 5.14.8-zen1-1-zen, LLVM 12.0.1)
+[info   ] IrrDriver: OpenGL version string: 3.3 (Core Profile) Mesa 21.3.0-devel (git-138463d3c3)
+[info   ] GLDriver: ARB Buffer Storage Present
+[info   ] GLDriver: ARB Compute Shader Present
+[info   ] GLDriver: ARB Arrays of Arrays Present
+[info   ] GLDriver: ARB Texture Storage Present
+[info   ] GLDriver: ARB Texture View Present
+[info   ] GLDriver: ARB Image Load Store Present
+[info   ] GLDriver: ARB Shader Atomic Counters Present
+[info   ] GLDriver: ARB Shader Storage Buffer Object Present
+[info   ] GLDriver: EXT Texture Compression S3TC Present
+[info   ] GLDriver: ARB Uniform Buffer Object Present
+[info   ] GLDriver: ARB Explicit Attrib Location Present
+[info   ] GLDriver: EXT Texture Filter Anisotropic Present
+[info   ] GLDriver: Geometry Shaders Present
+[info   ] GLDriver: ARB Texture Buffer Object Present
+[info   ] GLDriver: ARB Texture Swizzle Present
+[info   ] GLDriver: ARB Pixel Buffer Object Present
+[info   ] GLDriver: ARB Sampler Objects Present
+[info   ] GLDriver: ARB Vertex Type 2_10_10_10_rev Present
+[info   ] GLDriver: ARB Instanced Arrays Present
+[info   ] SharedGPUObjects: Hardware Skinning enabled, method: TBO, max bones: 1024
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/screenquad.vert
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/motion_blur.frag
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/lightning.frag
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/primitive2dlist.vert
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/transparent.frag
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/texturedquad.vert
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/uniformcolortexturedquad.frag
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/texturedquad.frag
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/coloredquad.vert
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/coloredquad.frag
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/colortexturedquad.vert
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/colortexturedquad.frag
+[info   ] irr_driver: GLSL supported.
+[info   ] SDLController: PS4 Controller plugged in: buttons: 16, axes: 6, hats: 0.
+[info   ] SDLController: PS4 Controller uses game controller mapping PS4 Controller.
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/sp_pass.vert
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/sp_solid.frag
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/sp_skinning.vert
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/sp_alpha_test.frag
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/sp_decal.frag
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/sp_grass_pass.vert
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/sp_grass.frag
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/sp_transparent.frag
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/sp_ghost.frag
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/saved-session/
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/xml/online_news.xml
+[info   ] addons: Using cached addons.xml.
+[info   ] GrandPrixManager: Loading Grand Prix files from /usr/share/supertuxkart/data/grandprix/
+[info   ] GrandPrixManager: Loading Grand Prix files from /home/salah/.local/share/supertuxkart/grandprix/
+[warn   ] SPMeshBuffer: kartDirt shader is missing, fallback to solid
+[warn   ] SPMeshBuffer: kartDirt shader is missing, fallback to solid
+[warn   ] SPMeshBuffer: kartDirt shader is missing, fallback to solid
+[warn   ] SPMeshBuffer: kartDirt shader is missing, fallback to solid
+[warn   ] SPMeshBuffer: kartDirt shader is missing, fallback to solid
+[info   ] Achievements: Synching achievement 2,3,4,7,9 to server.
+[info   ] HTTPRequest: Sending userid=330610&token=************************&achievementid=2%2C3%2C4%2C7%2C9 to https://online.supertuxkart.net/api/v2/user/achieving/
+[info   ] HTTPRequest: Sending userid=330610&token=************************&visitingid=330610 to https://online.supertuxkart.net/api/v2/user/get-friends-list/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/api/v2/server/get-all/
+[info   ] NetworkConfig: System is IPv4 only.
+[info   ] ServerInfoDialog: Server id is 446181, owner is 330600
+[info   ] STKHost: Host initialized.
+[info   ] ConnectToServer: SETUP
+[info   ] ProtocolManager: A 15ConnectToServer protocol has been started.
+[info   ] ConnectToServer: Registering addr 41.102.39.255:32796
+[info   ] HTTPRequest: Sending userid=330610&token=************************&server-id=446181&address=694560767&address-ipv6=&port=32796&aes-key=****************************&aes-iv=wf6PZ2Zp8sZHX%2FsA to https://online.supertuxkart.net/api/v2/server/join-server-key/
+[info   ] ConnectToServer: Trying connecting to 41.104.56.189:2759 from port 40796, retry remain: 3
+[info   ] ConnectToServer: Trying connecting to 41.104.56.189:2759 from port 40796, retry remain: 2
+[info   ] ConnectToServer: Trying connecting to 41.104.56.189:2759 from port 40796, retry remain: 1
+[info   ] ConnectToServer: Trying connecting to 41.104.56.189:2759 from port 40796, retry remain: 0
+[info   ] ConnectToServer: Trying connecting to 41.104.56.189:2759 from port 32796, retry remain: 10
+[info   ] ConnectToServer: Connected to 41.104.56.189:2759
+[info   ] ProtocolManager: A 11ClientLobby protocol has been started.
+[info   ] STKHost: Listening has been started.
+[info   ] ProtocolManager: A 15ConnectToServer protocol has been terminated.
+[info   ] ClientLobby: Server will validate this online player.
+[info   ] ClientLobby: Synchronous message of type 4
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 3
+[info   ] ClientLobby: The server accepted the connection.
+[info   ] NetworkTimerSynchronizer: Network timer synchronized, difference: 0ms
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: xmemer: sup
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: frog987456: tis who
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: xmemer: tis i
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: ToggleMySkill: go
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: ToggleMySkill: we are 4
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: ToggleMySkill: we can strat
+[info   ] ClientLobby: Synchronous message of type 12
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
+[warn   ] LayoutManager: Widget 'continue' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/simple_particle.vert
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/simple_particle.frag
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/alphatest_particle.vert
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/alphatest_particle.frag
+[info   ] ClientLobby: Selection starts now
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 22
+[info   ] ClientLobby: Synchronous message of type 10
+[info   ] LobbyProtocol: Player configuration ready.
+[info   ] LobbyProtocol: Ready !
+[verbose  ] RaceManager: Nb of karts=14, ghost karts:0 ai:0 players:14
+
+[warn   ] Scripting preprocessing: /usr/share/supertuxkart/data/library/gfx_advertisingScreenArena_a/scripting.as:105: warning: End of input with no newline, supplemented newline
+[info   ] Track: Overall scene complexity estimated at 637
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] ProtocolManager: A 12GameProtocol protocol has been started.
+[info   ] ProtocolManager: A 18GameEventsProtocol protocol has been started.
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/sky.vert
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/sky.frag
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/sp_text_billboard.frag
+[info   ] ClientLobby: Synchronous message of type 11
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+Rewind [warn   ] RewindManager: Missing local state at ticks 8447
+Rewind [warn   ] RewindManager: Missing local state at ticks 8459
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+Rewind [warn   ] RewindManager: Missing local state at ticks 9083
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] ClientLobby: Synchronous message of type 13
+[info   ] ClientLobby: Server notified that the race is finished.
+[info   ] ProtocolManager: A 18GameEventsProtocol protocol has been terminated.
+[info   ] ProtocolManager: A 12GameProtocol protocol has been terminated.
+[info   ] ClientLobby: Synchronous message of type 15
+[info   ] Singleton: Destroyed singleton.
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 4
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: ToggleMySkill: so many lagsssss
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: frog987456: that was painful
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: ToggleMySkill: je sors dy stade
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: frog987456: choose other map
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: ToggleMySkill: du
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: frog987456: start
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: xmemer: Whats with the lags
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: frog987456: and choose the green map
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: frog987456: this map is shit
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: ToggleMySkill: ok
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: marwanoa: It's map problem
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: ToggleMySkill: okok
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: xmemer: okay
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: ToggleMySkill: go green then
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: marwanoa: Your lag is high xmemer
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: ToggleMySkill: yeah me i have 45ms so kinda "good"
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: marwanoa: Look for your ping
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: marwanoa: It's 500
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: frog987456: just start
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: marwanoa: xmemer
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: ToggleMySkill: satrt
+[info   ] ClientLobby: Synchronous message of type 12
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
+[warn   ] LayoutManager: Widget 'continue' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
+[info   ] ClientLobby: Selection starts now
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 10
+[info   ] LobbyProtocol: Player configuration ready.
+[info   ] LobbyProtocol: Ready !
+[verbose  ] RaceManager: Nb of karts=14, ghost karts:0 ai:0 players:14
+
+[info   ] Track: Overall scene complexity estimated at 23
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] ProtocolManager: A 12GameProtocol protocol has been started.
+[info   ] ProtocolManager: A 18GameEventsProtocol protocol has been started.
+[info   ] ClientLobby: Synchronous message of type 11
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] ClientLobby: Synchronous message of type 8
+[info   ] ClientLobby: Synchronous message of type 13
+[info   ] ClientLobby: Server notified that the race is finished.
+[info   ] ProtocolManager: A 18GameEventsProtocol protocol has been terminated.
+[info   ] ProtocolManager: A 12GameProtocol protocol has been terminated.
+[info   ] ClientLobby: Synchronous message of type 15
+[info   ] Singleton: Destroyed singleton.
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 4
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: ToggleMySkill: i was bad this game
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: frog987456: the lag
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: ToggleMySkill: yup
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: frog987456: have an idea
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: frog987456: or nvm
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: marwanoa: Host the game
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: xmemer: back
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: marwanoa: Matdirouch lseba b lag
+[info   ] STKHost: 41.104.56.189:2759 has just disconnected. There are now 0 peers.
+[error  ] STKHost: Server connection timed out.
+[info   ] ProtocolManager: A 11ClientLobby protocol has been terminated.
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/server/clear-user-joined-server/
+[info   ] STKHost: Listening has been stopped.
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] STKHost: Host initialized.
+[info   ] ConnectToServer: SETUP
+[info   ] ProtocolManager: A 15ConnectToServer protocol has been started.
+[info   ] NetworkConfig: System is IPv4 only.
+Sat Oct 02 21:17:07 2021 [info   ] STKHost: Host initialized.
+Sat Oct 02 21:17:07 2021 [warn   ] STKHost: Disable IPv6 socket due to missing IPv6.
+Sat Oct 02 21:17:07 2021 [info   ] STKHost: Server port is 2759
+Sat Oct 02 21:17:07 2021 [info   ] ServerLobby: Resetting the server to its initial state.
+Sat Oct 02 21:17:07 2021 [info   ] ProtocolManager: A 11ServerLobby protocol has been started.
+Sat Oct 02 21:17:08 2021 [info   ] STKHost: Listening has been started.
+Sat Oct 02 21:17:08 2021 [info   ] ServerLobby: Public IPv4 server address 41.102.39.255:2759
+[info   ] HTTPRequest: Sending userid=330610&token=************************&address=694560767&port=2759&private_port=2759&name=aaaa_ensia&max_players=4&difficulty=1&game_mode=6&password=*&version=6 to https://online.supertuxkart.net/api/v2/server/create/
+[info   ] ServerLobby: Server 446194 is now online.
+[info   ] ConnectToServer: Registering addr 41.102.39.255:34629
+[info   ] HTTPRequest: Sending userid=330610&token=************************&server-id=446194&address=694560767&address-ipv6=&port=34629&aes-key=****************************&aes-iv=jAIRywekpAhx0POq to https://online.supertuxkart.net/api/v2/server/join-server-key/
+[info   ] ConnectToServer: Trying connecting to 127.0.0.1:2759 from port 50535, retry remain: 3
+[info   ] ConnectToServer: Connected to 127.0.0.1:2759
+[info   ] ProtocolManager: A 11ClientLobby protocol has been started.
+[info   ] ProtocolManager: A 15ConnectToServer protocol has been terminated.
+[info   ] STKHost: Listening has been started.
+Sat Oct 02 21:17:09 2021 [info   ] STKHost: 127.0.0.1:50535 has just connected. There are now 1 peers.
+[info   ] ClientLobby: Server will validate this online player.
+Sat Oct 02 21:17:09 2021 [info   ] ServerLobby: Message of type 1 received.
+[info   ] ProtocolManager: A 13ConnectToPeer protocol has been started.
+Sat Oct 02 21:17:14 2021 [info   ] ServerLobby: frog987456 validated
+Sat Oct 02 21:17:14 2021 [info   ] ServerLobby: New player frog987456 with online id 330610 from 127.0.0.1:50535 with SuperTuxKart/1.3 (Linux).
+[info   ] ClientLobby: Synchronous message of type 4
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 3
+[info   ] ClientLobby: The server accepted the connection.
+[info   ] ClientLobby: Synchronous message of type 18
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] NetworkTimerSynchronizer: Network timer synchronized, difference: 1ms
+[info   ] ProtocolManager: A 11ClientLobby protocol has been terminated.
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/server/clear-user-joined-server/
+Sat Oct 02 21:17:24 2021 [info   ] ProtocolManager: A 13ConnectToPeer protocol has been terminated.
+Sat Oct 02 21:17:24 2021 [info   ] ProtocolManager: A 11ServerLobby protocol has been terminated.
+Sat Oct 02 21:17:24 2021 [info   ] ServerLobby: Unregister server address 41.102.39.255:2759
+Sat Oct 02 21:17:24 2021 [info   ] STKHost: Listening has been stopped.
+[info   ] STKHost: Listening has been stopped.
+[info   ] HTTPRequest: Sending userid=330610&token=************************&address=694560767&port=2759 to https://online.supertuxkart.net/api/v2/server/stop/
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/api/v2/server/get-all/
+[info   ] NetworkConfig: System is IPv4 only.
+[info   ] ServerInfoDialog: Server id is 444255, owner is 164795
+[info   ] STKHost: Host initialized.
+[info   ] ConnectToServer: SETUP
+[info   ] ProtocolManager: A 15ConnectToServer protocol has been started.
+[info   ] ConnectToServer: Registering addr 41.102.39.255:47788
+[info   ] HTTPRequest: Sending userid=330610&token=************************&server-id=444255&address=694560767&address-ipv6=&port=47788&aes-key=******************************&aes-iv=2cCfCnybR7EudW%2BG to https://online.supertuxkart.net/api/v2/server/join-server-key/
+[info   ] ConnectToServer: Trying connecting to 94.23.17.162:2959 from port 58271, retry remain: 3
+[info   ] ConnectToServer: Connected to 94.23.17.162:2959
+[info   ] ProtocolManager: A 11ClientLobby protocol has been started.
+[info   ] ProtocolManager: A 15ConnectToServer protocol has been terminated.
+[info   ] STKHost: Listening has been started.
+[info   ] ClientLobby: Server will validate this online player.
+[info   ] ClientLobby: Synchronous message of type 4
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 3
+[info   ] ClientLobby: The server accepted the connection.
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] NetworkTimerSynchronizer: Network timer synchronized, difference: 1ms
+[info   ] ProtocolManager: A 11ClientLobby protocol has been terminated.
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/server/clear-user-joined-server/
+[info   ] STKHost: Listening has been stopped.
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/api/v2/server/get-all/
+[info   ] NetworkConfig: System is IPv4 only.
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/api/v2/server/get-all/
+[info   ] NetworkConfig: System is IPv4 only.
+[info   ] ServerInfoDialog: Server id is 446196, owner is 330626
+[info   ] STKHost: Host initialized.
+[info   ] ConnectToServer: SETUP
+[info   ] ProtocolManager: A 15ConnectToServer protocol has been started.
+[info   ] ConnectToServer: Registering addr 41.102.39.255:40675
+[info   ] HTTPRequest: Sending userid=330610&token=************************&server-id=446196&address=694560767&address-ipv6=&port=40675&aes-key=******************************&aes-iv=AhiJlZebZ83UC8N7 to https://online.supertuxkart.net/api/v2/server/join-server-key/
+[info   ] ConnectToServer: Trying connecting to 41.108.110.216:2759 from port 43473, retry remain: 3
+[info   ] ConnectToServer: Trying connecting to 41.108.110.216:2759 from port 43473, retry remain: 2
+[info   ] ConnectToServer: Trying connecting to 41.108.110.216:2759 from port 43473, retry remain: 1
+[info   ] ConnectToServer: Trying connecting to 41.108.110.216:2759 from port 43473, retry remain: 0
+[info   ] ConnectToServer: Trying connecting to 41.108.110.216:2759 from port 40675, retry remain: 10
+[info   ] ConnectToServer: Connected to 41.108.110.216:2759
+[info   ] ProtocolManager: A 11ClientLobby protocol has been started.
+[info   ] ProtocolManager: A 15ConnectToServer protocol has been terminated.
+[info   ] STKHost: Listening has been started.
+[info   ] ClientLobby: Server will validate this online player.
+[info   ] ClientLobby: Synchronous message of type 4
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 3
+[info   ] ClientLobby: The server accepted the connection.
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] NetworkTimerSynchronizer: Network timer synchronized, difference: 2ms
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: xmemer: damn that was fr
+[info   ] ClientLobby: Synchronous message of type 12
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
+[warn   ] LayoutManager: Widget 'continue' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
+[info   ] ClientLobby: Selection starts now
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 10
+[info   ] LobbyProtocol: Player configuration ready.
+[info   ] LobbyProtocol: Ready !
+[verbose  ] RaceManager: Nb of karts=14, ghost karts:0 ai:0 players:14
+
+[info   ] Track: Overall scene complexity estimated at 23
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] ProtocolManager: A 12GameProtocol protocol has been started.
+[info   ] ProtocolManager: A 18GameEventsProtocol protocol has been started.
+[info   ] ClientLobby: Synchronous message of type 11
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************&visitingid=330610 to https://online.supertuxkart.net/api/v2/user/get-friends-list/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] ClientLobby: Synchronous message of type 8
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] ClientLobby: Synchronous message of type 13
+[info   ] ClientLobby: Server notified that the race is finished.
+[info   ] ProtocolManager: A 18GameEventsProtocol protocol has been terminated.
+[info   ] ProtocolManager: A 12GameProtocol protocol has been terminated.
+[info   ] ClientLobby: Synchronous message of type 15
+[info   ] Singleton: Destroyed singleton.
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 4
+[info   ] ProtocolManager: A 11ClientLobby protocol has been terminated.
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/server/clear-user-joined-server/
+[info   ] STKHost: Listening has been stopped.
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/api/v2/server/get-all/
+[info   ] NetworkConfig: System is IPv4 only.
+[info   ] ServerInfoDialog: Server id is 444255, owner is 164795
+[info   ] STKHost: Host initialized.
+[info   ] ConnectToServer: SETUP
+[info   ] ProtocolManager: A 15ConnectToServer protocol has been started.
+[info   ] ConnectToServer: Registering addr 41.102.39.255:60986
+[info   ] HTTPRequest: Sending userid=330610&token=************************&server-id=444255&address=694560767&address-ipv6=&port=60986&aes-key=********************************&aes-iv=1gHICiYzhYdg9QfA to https://online.supertuxkart.net/api/v2/server/join-server-key/
+[info   ] ConnectToServer: Trying connecting to 94.23.17.162:2959 from port 52540, retry remain: 3
+[info   ] ConnectToServer: Connected to 94.23.17.162:2959
+[info   ] ProtocolManager: A 11ClientLobby protocol has been started.
+[info   ] ProtocolManager: A 15ConnectToServer protocol has been terminated.
+[info   ] STKHost: Listening has been started.
+[info   ] ClientLobby: Server will validate this online player.
+[info   ] ClientLobby: Synchronous message of type 4
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 3
+[info   ] ClientLobby: The server accepted the connection.
+[info   ] NetworkTimerSynchronizer: Network timer synchronized, difference: 4ms
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] ProtocolManager: A 11ClientLobby protocol has been terminated.
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/server/clear-user-joined-server/
+[info   ] STKHost: Listening has been stopped.
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/api/v2/server/get-all/
+[info   ] NetworkConfig: System is IPv4 only.
+[info   ] ServerInfoDialog: Server id is 444255, owner is 164795
+[info   ] STKHost: Host initialized.
+[info   ] ConnectToServer: SETUP
+[info   ] ProtocolManager: A 15ConnectToServer protocol has been started.
+[info   ] ConnectToServer: Registering addr 41.102.39.255:46333
+[info   ] HTTPRequest: Sending userid=330610&token=************************&server-id=444255&address=694560767&address-ipv6=&port=46333&aes-key=********************************&aes-iv=FLojCE3KBKGVLOsI to https://online.supertuxkart.net/api/v2/server/join-server-key/
+[info   ] ConnectToServer: Trying connecting to 94.23.17.162:2959 from port 35360, retry remain: 3
+[info   ] ConnectToServer: Connected to 94.23.17.162:2959
+[info   ] STKHost: Listening has been started.
+[info   ] ProtocolManager: A 11ClientLobby protocol has been started.
+[info   ] ProtocolManager: A 15ConnectToServer protocol has been terminated.
+[info   ] ClientLobby: Server will validate this online player.
+[info   ] ClientLobby: Synchronous message of type 4
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 3
+[info   ] ClientLobby: The server accepted the connection.
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] NetworkTimerSynchronizer: Network timer synchronized, difference: 1ms
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] ClientLobby: Synchronous message of type 12
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
+[warn   ] LayoutManager: Widget 'continue' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
+[info   ] ClientLobby: Selection starts now
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 10
+[info   ] LobbyProtocol: Player configuration ready.
+[info   ] LobbyProtocol: Ready !
+[verbose  ] RaceManager: Nb of karts=14, ghost karts:0 ai:0 players:14
+
+[info   ] Track: Overall scene complexity estimated at 23
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] ProtocolManager: A 12GameProtocol protocol has been started.
+[info   ] ProtocolManager: A 18GameEventsProtocol protocol has been started.
+[info   ] ClientLobby: Synchronous message of type 11
+[info   ] ClientLobby: Synchronous message of type 8
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] ClientLobby: Synchronous message of type 8
+[info   ] ClientLobby: Synchronous message of type 8
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] ClientLobby: Synchronous message of type 27
+[info   ] ClientLobby: Synchronous message of type 13
+[info   ] ClientLobby: Server notified that the race is finished.
+[info   ] ProtocolManager: A 18GameEventsProtocol protocol has been terminated.
+[info   ] ProtocolManager: A 12GameProtocol protocol has been terminated.
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] ClientLobby: Synchronous message of type 8
+[info   ] ClientLobby: Synchronous message of type 15
+[info   ] Singleton: Destroyed singleton.
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 4
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: marwanoa: It's so fast
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: frog987456: yes
+[info   ] ClientLobby: Synchronous message of type 8
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 12
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
+[warn   ] LayoutManager: Widget 'continue' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
+[info   ] ClientLobby: Selection starts now
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] ClientLobby: Synchronous message of type 10
+[info   ] LobbyProtocol: Player configuration ready.
+[info   ] LobbyProtocol: Ready !
+[verbose  ] RaceManager: Nb of karts=14, ghost karts:0 ai:0 players:14
+
+[info   ] Track: Overall scene complexity estimated at 23
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] ProtocolManager: A 12GameProtocol protocol has been started.
+[info   ] ProtocolManager: A 18GameEventsProtocol protocol has been started.
+[info   ] ClientLobby: Synchronous message of type 11
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] ClientLobby: Synchronous message of type 13
+[info   ] ClientLobby: Server notified that the race is finished.
+[info   ] ProtocolManager: A 18GameEventsProtocol protocol has been terminated.
+[info   ] ProtocolManager: A 12GameProtocol protocol has been terminated.
+[info   ] ClientLobby: Synchronous message of type 15
+[info   ] Singleton: Destroyed singleton.
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 4
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: frog987456: let's play race
+[info   ] ClientLobby: Synchronous message of type 8
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ProtocolManager: A 11ClientLobby protocol has been terminated.
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/server/clear-user-joined-server/
+[info   ] STKHost: Listening has been stopped.
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/api/v2/server/get-all/
+[info   ] NetworkConfig: System is IPv4 only.
+[info   ] ServerInfoDialog: Server id is 445354, owner is 160881
+[info   ] STKHost: Host initialized.
+[info   ] ConnectToServer: SETUP
+[info   ] ProtocolManager: A 15ConnectToServer protocol has been started.
+[info   ] ConnectToServer: Registering addr 41.102.39.255:36497
+[info   ] HTTPRequest: Sending userid=330610&token=************************&server-id=445354&address=694560767&address-ipv6=&port=36497&aes-key=******************************&aes-iv=dcm6vR2JIiKTQvWj to https://online.supertuxkart.net/api/v2/server/join-server-key/
+[info   ] ConnectToServer: Trying connecting to 31.187.105.144:52759 from port 49892, retry remain: 3
+[info   ] ConnectToServer: Trying connecting to 31.187.105.144:52759 from port 49892, retry remain: 2
+[info   ] ProtocolManager: A 15ConnectToServer protocol has been terminated.
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/server/clear-user-joined-server/
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/api/v2/server/get-all/
+[info   ] NetworkConfig: System is IPv4 only.
+[info   ] ServerInfoDialog: Server id is 445354, owner is 160881
+[info   ] STKHost: Host initialized.
+[info   ] ConnectToServer: SETUP
+[info   ] ProtocolManager: A 15ConnectToServer protocol has been started.
+[info   ] ConnectToServer: Registering addr 41.102.39.255:60369
+[info   ] HTTPRequest: Sending userid=330610&token=************************&server-id=445354&address=694560767&address-ipv6=&port=60369&aes-key=******************************&aes-iv=iOznXr%2FHPlUh5dRE to https://online.supertuxkart.net/api/v2/server/join-server-key/
+[info   ] ConnectToServer: Trying connecting to 31.187.105.144:52759 from port 34202, retry remain: 3
+[info   ] ConnectToServer: Trying connecting to 31.187.105.144:52759 from port 34202, retry remain: 2
+[info   ] ConnectToServer: Trying connecting to 31.187.105.144:52759 from port 34202, retry remain: 1
+[info   ] ConnectToServer: Trying connecting to 31.187.105.144:52759 from port 34202, retry remain: 0
+[info   ] ConnectToServer: Trying connecting to 31.187.105.144:52759 from port 60369, retry remain: 10
+[info   ] ConnectToServer: Connected to 31.187.105.144:52759
+[info   ] ProtocolManager: A 11ClientLobby protocol has been started.
+[info   ] ProtocolManager: A 15ConnectToServer protocol has been terminated.
+[info   ] STKHost: Listening has been started.
+[info   ] ClientLobby: Server will validate this online player.
+[info   ] ClientLobby: Synchronous message of type 4
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 3
+[info   ] ClientLobby: The server accepted the connection.
+[info   ] NetworkTimerSynchronizer: Network timer synchronized, difference: 4ms
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 12
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
+[warn   ] LayoutManager: Widget 'continue' has a width of 0 (left_space = 0, fraction = 1.000000, max_width = )
+[info   ] ClientLobby: Selection starts now
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
+[warn   ] LayoutManager: Statically sized widgets took all the place!!
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] ClientLobby: Synchronous message of type 16
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] ClientLobby: Synchronous message of type 10
+[info   ] LobbyProtocol: Player configuration ready.
+[info   ] LobbyProtocol: Ready !
+[verbose  ] RaceManager: Nb of karts=3, ghost karts:0 ai:0 players:3
+
+[info   ] Track: Overall scene complexity estimated at 154
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] NetworkPlayerController: New network player controller.
+[info   ] ProtocolManager: A 12GameProtocol protocol has been started.
+[info   ] ProtocolManager: A 18GameEventsProtocol protocol has been started.
+[info   ] ClientLobby: Synchronous message of type 11
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] ClientLobby: Synchronous message of type 13
+[info   ] ClientLobby: Server notified that the race is finished.
+[info   ] ProtocolManager: A 18GameEventsProtocol protocol has been terminated.
+[info   ] ProtocolManager: A 12GameProtocol protocol has been terminated.
+[info   ] ClientLobby: Synchronous message of type 15
+[info   ] Singleton: Destroyed singleton.
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 4
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: frog987456: gg
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: ToggleMySkill: i back
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: marwanoa: Boring AF
+[info   ] ClientLobby: Synchronous message of type 8
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] ClientLobby: Synchronous message of type 17
+[info   ] ClientLobby: frog987456: needs more players
+[info   ] ClientLobby: Synchronous message of type 8
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ClientLobby: Synchronous message of type 6
+[info   ] ProtocolManager: A 11ClientLobby protocol has been terminated.
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/server/clear-user-joined-server/
+[info   ] STKHost: Listening has been stopped.
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] SDLController: PS4 Controller unplugged.
+[info   ] HTTPRequest: Sending userid=330610&token=************************ to https://online.supertuxkart.net/api/v2/user/client-quit/
+[verbose  ] Thread: Start waiting 1120542.411000
+[verbose  ] Thread: Waited 0.322000 seconds for thread to become deleteable.
+[verbose  ] Thread: Stop waiting 1120542.733000
+[info   ] Singleton: Destroyed singleton.
+[info   ] Singleton: Destroyed singleton.
+[info   ] Singleton: Destroyed singleton.
+[info   ] Singleton: Destroyed singleton.
+[info   ] Singleton: Destroyed singleton.
+[info   ] Singleton: Destroyed singleton.
+[info   ] Singleton: Destroyed singleton.
+[info   ] Singleton: Destroyed singleton.
+[info   ] Singleton: Destroyed singleton.
+[info   ] Singleton: Destroyed singleton.
+[info   ] Singleton: Destroyed singleton.
+[info   ] Singleton: Destroyed singleton.
+[info   ] Singleton: Destroyed singleton.
+[info   ] Singleton: Destroyed singleton.
+[info   ] Singleton: Destroyed singleton.

@@ -1,0 +1,21 @@
+#!/usr/bin/sh
+alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
+sed 's/[ \t]*\#.*//g ; /^[ \t]*$/d' $HOME/.backuplist | xargs /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME add
+
+while getopts ":m:" opt; do
+  case $opt in
+    m)
+      config commit -m "$OPTARG"
+      ;;
+    \?)
+      echo "Invalid option: -$OPTARG" >&2
+      exit 1
+      ;;
+    :)
+      config commit -m "$(date)"
+      ;;
+  esac
+done
+
+echo "Pushing to GitHub" && config push origin master || echo "Not able to push to GitHub, try again later"
+

@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<highscores version="4">
+  <highscore track-name    ="snowtuxpeak"
+             number-karts  ="6"
+             difficulty    ="1"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="3"
+             reverse       ="false">
+             <entry time    ="142.645"
+                    name    ="frog"
+                    kartname="pidgin"/>
+             <entry time    ="162.011"
+                    name    ="frog"
+                    kartname="pidgin"/>
+  </highscore>
+  <highscore track-name    ="sandtrack"
+             number-karts  ="5"
+             difficulty    ="1"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="3"
+             reverse       ="false">
+             <entry time    ="175.398"
+                    name    ="frog"
+                    kartname="pidgin"/>
+  </highscore>
+  <highscore track-name    ="ravenbridge_mansion"
+             number-karts  ="6"
+             difficulty    ="1"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="3"
+             reverse       ="false">
+             <entry time    ="203.04"
+                    name    ="frog"
+                    kartname="pidgin"/>
+  </highscore>
+  <highscore track-name    ="scotland"
+             number-karts  ="5"
+             difficulty    ="1"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="3"
+             reverse       ="false">
+             <entry time    ="163.334"
+                    name    ="frog"
+                    kartname="pidgin"/>
+  </highscore>
+  <highscore track-name    ="cornfield_crossing"
+             number-karts  ="6"
+             difficulty    ="1"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="3"
+             reverse       ="false">
+             <entry time    ="175.739"
+                    name    ="frog"
+                    kartname="pidgin"/>
+             <entry time    ="183.764"
+                    name    ="frog"
+                    kartname="pidgin"/>
+  </highscore>
+  <highscore track-name    ="abyss"
+             number-karts  ="5"
+             difficulty    ="1"
+             hscore-type   ="HST_STANDARD"
+             number-of-laps="3"
+             reverse       ="false">
+             <entry time    ="188.591"
+                    name    ="frog"
+                    kartname="pidgin"/>
+  </highscore>
+</highscores>

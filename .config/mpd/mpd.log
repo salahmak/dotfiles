@@ -1,0 +1,34 @@
+Oct 02 23:44 : state_file: Unrecognized line in state file: ## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+Oct 02 23:44 : state_file: Unrecognized line in state file: ## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+Oct 02 23:44 : state_file: Unrecognized line in state file:
+Oct 02 23:51 : player: played "NEFFEX - Grateful [Copyright Free].mp3"
+Oct 02 23:54 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Oct 02 23:58 : player: played "Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3"
+Oct 03 00:01 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Oct 03 00:05 : player: played "N3WPORT - Power (feat. braev) [NCS Release].mp3"
+Oct 03 00:08 : player: played "NEFFEX - Grateful [Copyright Free].mp3"
+Oct 03 00:11 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Oct 03 00:14 : player: played "Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3"
+Oct 03 00:18 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Oct 03 00:21 : player: played "N3WPORT - Power (feat. braev) [NCS Release].mp3"
+Oct 03 00:24 : player: played "NEFFEX - Grateful [Copyright Free].mp3"
+Oct 03 00:28 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Oct 03 00:31 : player: played "Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3"
+Oct 03 00:34 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Oct 04 00:05 : exception: Failed to decode /home/salah/Music/N3WPORT - Power (feat. braev) [NCS Release].mp3; Failed to open '/home/salah/Music/N3WPORT - Power (feat. braev) [NCS Release].mp3': No such file or directory
+Oct 04 00:05 : player: played "N3WPORT - Power (feat. braev) [NCS Release].mp3"
+Oct 04 00:10 : update: removing NEFFEX - Grateful [Copyright Free].mp3
+Oct 04 00:10 : update: removing N3WPORT - Power (feat. braev) [NCS Release].mp3
+Oct 04 00:10 : update: removing Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3
+Oct 04 00:10 : update: removing Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3
+Oct 04 00:10 : update: removing Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3
+Oct 04 00:10 : update: added /The Cure - Boys Don't Cry-9GkVhgIeGJQ.mp3
+Oct 04 00:10 : update: added /Cartoon - Howling (ft. Asena) (Andromedik Remix) [NCS Release]-gUQDq9ezuJQ.mp3
+Oct 04 00:10 : update: added /Cartoon - Why We Lose (feat. Coleman Trapp) [NCS Release]-zyXmsVwZqX4.mp3
+Oct 04 00:10 : update: added /Aphex Twin - Stone In Focus-q86g1aop6a8.mp3
+Oct 04 00:10 : update: added /the smiths - there is a light that never goes out ( slowed + reverb )-EB9uDSHmCHs.mp3
+Oct 04 00:10 : update: added /Burzum - Dunkelheit-DPyOhP1GTRQ.mp3
+Oct 04 00:10 : update: added /Crywank - Memento Mori-YasRuLucsCo.mp3
+Oct 04 00:10 : update: added /Scattle   Remorse REUPLOAD CHECK DESC-JD4JgmF9t7g.mp3
+Oct 04 00:10 : update: added /Cartoon - On & On (feat. Daniel Levi) [NCS Release]-K4DyBUG242c.mp3
+Oct 04 00:10 : update: added /In Your Eyes - Peter Gabriel-B3kFPBtc9BE.mp3
