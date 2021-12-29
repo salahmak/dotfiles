@@ -1,40 +1,188 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
+[/home/salah/Desktop/brown_noise.mp3]
+row=1
+col=1
+
+[/home/salah/Desktop/Half-Life 2 - Episode 1.desktop]
+row=4
+col=1
+
+[/home/salah/Desktop/data_index.sjson]
+row=2
+col=2
+
+[/home/salah/Desktop/data_mtimes.sjson]
+row=3
+col=4
+
+[/home/salah/Desktop/my_world.zip]
+row=1
+col=3
+
+[/home/salah/Desktop/saves]
+row=1
+col=5
+
+[/home/salah/Desktop/meme]
+row=5
+col=5
+
+[/home/salah/Desktop/werewolf.png]
+row=4
+col=3
+
+[/home/salah/Desktop/temp]
+row=6
+col=4
+
+[/home/salah/Desktop/school]
+row=7
+col=1
+
+[/home/salah/Desktop/Half Life.desktop]
+row=7
+col=3
+
+[/home/salah/Desktop/level.dat]
+row=3
+col=2
+
+[/home/salah/Desktop/my_world_1.17.1_bak.zip]
+row=2
+col=5
+
+[/home/salah/Desktop/hl1_save]
+row=5
+col=4
+
+[/home/salah/Desktop/xonotic-20170401-music.pk3_FILES]
+row=0
+col=5
+
+[/home/salah/Desktop/Bunnt9VCUAAYdyR.zip]
+row=6
+col=5
+
+[/home/salah/Desktop/server.jar]
+row=7
+col=0
+
+[/home/salah/Desktop/university]
+row=4
+col=5
+
+[/home/salah/Desktop/Half-Life 2 - Episode 2.desktop]
+row=3
+col=1
+
+[/home/salah/Desktop/Untitled-1.cpp]
+row=4
+col=2
+
+[/home/salah/Desktop/Krunker.desktop]
+row=1
+col=2
+
+[/home/salah/Desktop/werewolf.xcf]
+row=3
+col=3
+
+[/home/salah/Desktop/bac 2021.zip]
+row=2
+col=3
+
+[/home/salah/Desktop/data]
+row=7
+col=4
+
+[/home/salah/Desktop/data_dependencies.sjson]
+row=2
+col=4
+
 [/home/salah/Desktop/commands]
 row=5
 col=0
 
-[/home/salah/Desktop/school]
+[/home/salah/Desktop/initramfs-5.10.27-gentoo-x86_64.img]
+row=6
+col=2
+
+[/home/salah/Desktop/Proton 6.3.desktop]
+row=0
+col=2
+
+[/home/salah/Desktop/bac subjects]
 row=4
-col=0
+col=4
 
-[/home/salah/Desktop/png]
+[/home/salah/Desktop/math]
 row=7
-col=0
+col=5
 
-[/home/salah/Desktop/image.png]
-row=1
-col=1
-
-[/home/salah/Desktop/build]
+[/home/salah/Desktop/Fallout - New Vegas.desktop]
 row=2
 col=1
 
-[/home/salah/Desktop/img.png]
+[/home/salah/Desktop/vmlinuz-5.10.27-gentoo-x86_64]
+row=5
+col=2
+
+[/home/salah/Desktop/data_versions.sjson]
+row=1
+col=4
+
+[/home/salah/Desktop/Counter-Strike WaRzOnE.desktop]
+row=5
+col=3
+
+[/home/salah/Desktop/crown-release]
+row=0
+col=4
+
+[/home/salah/Desktop/enchants]
+row=7
+col=2
+
+[/home/salah/Desktop/Half-Life 2.desktop]
+row=5
+col=1
+
+[/home/salah/Desktop/HLDS.desktop]
+row=6
+col=3
+
+[/home/salah/Desktop/Half-Life Source.desktop]
+row=6
+col=1
+
+[/home/salah/Desktop/xonotic-20170401-music.pk3]
 row=0
 col=1
 
-[/home/salah/Desktop/img23.png]
-row=6
-col=0
+[/home/salah/Desktop/my_world]
+row=3
+col=5
 
-[6218525918522C73]
+[/home/salah/Desktop/my_world_5555.zip]
+row=0
+col=3
+
+[48BA4482BA446F0E]
 row=1
 col=0
 
-[Trash]
+[300C66200C65E0F8]
 row=0
+col=0
+
+[Floppy Disk]
+row=6
+col=0
+
+[Trash]
+row=4
 col=0
 
 [/]

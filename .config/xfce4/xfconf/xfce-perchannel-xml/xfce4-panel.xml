@@ -18,13 +18,13 @@
         <value type="int" value="3"/>
         <value type="int" value="5"/>
         <value type="int" value="6"/>
-        <value type="int" value="8"/>
-        <value type="int" value="7"/>
         <value type="int" value="10"/>
         <value type="int" value="11"/>
         <value type="int" value="12"/>
         <value type="int" value="13"/>
         <value type="int" value="14"/>
+        <value type="int" value="4"/>
+        <value type="int" value="7"/>
       </property>
     </property>
     <property name="panel-2" type="empty">
@@ -32,17 +32,6 @@
       <property name="position" type="string" value="p=10;x=0;y=0"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="size" type="uint" value="48"/>
-      <property name="plugin-ids" type="array">
-        <value type="int" value="15"/>
-        <value type="int" value="16"/>
-        <value type="int" value="9"/>
-        <value type="int" value="4"/>
-        <value type="int" value="23"/>
-        <value type="int" value="17"/>
-        <value type="int" value="18"/>
-        <value type="int" value="19"/>
-        <value type="int" value="20"/>
-      </property>
       <property name="length" type="uint" value="100"/>
       <property name="enter-opacity" type="uint" value="100"/>
       <property name="leave-opacity" type="uint" value="100"/>
@@ -52,6 +41,9 @@
         <value type="double" value="0.321200"/>
         <value type="double" value="0.321200"/>
         <value type="double" value="1.000000"/>
+      </property>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="8"/>
       </property>
     </property>
   </property>
@@ -89,11 +81,6 @@
       <property name="symbolic-icons" type="bool" value="false"/>
       <property name="icon-size" type="int" value="22"/>
     </property>
-    <property name="plugin-8" type="string" value="pulseaudio">
-      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance106114;firefox.instance12898;firefox.instance598;firefox.instance599;firefox.instance600;firefox.instance601;firefox.instance603;firefox.instance604;firefox.instance605;firefox.instance607;firefox.instance612;firefox.instance722;firefox.instance844;spotify;vlc"/>
-    </property>
     <property name="plugin-10" type="string" value="notification-plugin"/>
     <property name="plugin-11" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -107,48 +94,11 @@
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-14" type="string" value="actions"/>
-    <property name="plugin-15" type="string" value="showdesktop"/>
-    <property name="plugin-16" type="string" value="separator"/>
-    <property name="plugin-17" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16149619001.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-18" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16149619002.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-19" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16149665924.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-20" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16149665813.desktop"/>
-      </property>
-    </property>
     <property name="plugin-1" type="string" value="whiskermenu"/>
-    <property name="plugin-7" type="string" value="xkb">
-      <property name="display-type" type="uint" value="2"/>
-      <property name="display-name" type="uint" value="1"/>
-      <property name="group-policy" type="uint" value="0"/>
+    <property name="plugin-4" type="string" value="wavelan"/>
+    <property name="plugin-7" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
     </property>
-    <property name="plugin-9" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16149665391.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-23" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16149665572.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-4" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16150648411.desktop"/>
-      </property>
-    </property>
+    <property name="plugin-8" type="string" value="docklike"/>
   </property>
 </channel>

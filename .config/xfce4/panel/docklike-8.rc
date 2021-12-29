@@ -1,0 +1,8 @@
+[user]
+noWindowsListIfSingle=false
+onlyDisplayVisible=false
+onlyDisplayScreen=false
+showPreviews=false
+showWindowCount=false
+indicatorStyle=2
+indicatorOrientation=0

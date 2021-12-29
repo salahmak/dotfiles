@@ -11,5 +11,6 @@
     <property name="dpms-on-ac-sleep" type="uint" value="0"/>
     <property name="dpms-on-ac-off" type="uint" value="0"/>
     <property name="general-notification" type="bool" value="false"/>
+    <property name="lock-screen-suspend-hibernate" type="bool" value="true"/>
   </property>
 </channel>

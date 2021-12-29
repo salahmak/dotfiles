@@ -4,6 +4,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 
 setxkbmap fr,ar, azerty -model pc10 -option grp:alt_shift_toggle&
 
+
 /home/salah/.config/polybar/material/launch.sh
 
 #bspc monitor -d I II III IV V VI VII VIII IX X
@@ -52,6 +53,7 @@ bspc rule -a copyq state=floating
 bspc rule -a firefox:Toolkit sticky=on state=floating
 bspc rule -a Ristretto state=floating rectangle=1280x990+0+35
 bspc rule -a OpenBoard state=floating
+bspc rule -a Zathura state=tiled
 
 
 
